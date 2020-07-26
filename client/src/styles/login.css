@@ -1,0 +1,66 @@
+.login {
+  max-width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login .hide {
+  display: none;
+}
+
+.login .success {
+  color: rgb(7, 172, 7);
+  position: relative;
+  bottom: 10px;
+  display: block;
+}
+
+.login .show {
+  color: rgb(163, 26, 26);
+  position: relative;
+  bottom: 10px;
+  display: block;
+}
+.icon_container {
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.login h1 {
+  margin: 30px 0px;
+  font-size: 25px;
+}
+.login input {
+  display: block;
+  width: 100%;
+  padding: 18px 14px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #263e7e;
+  padding: 5px 0px;
+  display: block;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #5272ca;
+  display: block;
+  color: white;
+}
+
+.msg {
+  display: block;
+  margin-top: 20px;
+}
+
+.form-row {
+  position: relative;
+}

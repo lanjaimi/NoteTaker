@@ -1,0 +1,26 @@
+.navBar {
+  height: 100px;
+  width: 100%;
+  background: #000046;
+  background: linear-gradient(to right, #1cb5e0, #000046);
+}
+
+.navBar img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.navBar .logout {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  padding: 10px;
+  color: white;
+  background-color: #253970;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.logout:hover {
+  background-color: #374f92;
+}

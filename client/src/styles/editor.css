@@ -1,0 +1,48 @@
+.editor {
+  padding-left: 60px;
+  margin-top: 25px;
+  box-sizing: border-box;
+}
+
+.editor .error {
+  padding: 10px;
+  color: rgb(240, 35, 35);
+  font-size: 20px;
+}
+
+.editor input {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+.editor .editor-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #302f9e;
+  color: white;
+  cursor: pointer;
+}
+
+.editor .editor-btn:hover {
+  background-color: #8c8be2;
+}
+
+.editor_container {
+  max-height: 70vh;
+  overflow: scroll;
+  width: 95%;
+}
+
+.ql-snow {
+  border: 1px solid black !important;
+}
+
+.ql-editor {
+  min-height: 60vh;
+}
