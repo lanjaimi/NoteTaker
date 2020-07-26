@@ -20,6 +20,7 @@ class App extends Component {
         <div className='App'>
           <div className='row'>
             <ProtectedRoute exact path='/' component={NavBar} />
+            <ProtectedRoute exact path='/editor' component={NavBar} />
             <ProtectedRoute exact path='/' component={NotesList} />
             <ProtectedRoute exact path='/' component={Display} />
             <ProtectedRoute exact path='/editor' component={Editor} />
