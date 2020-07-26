@@ -95,8 +95,7 @@ class Editor extends Component {
   validateInput = () => {
     if (this.state.title.length < 3 || this.state.content.length < 3) {
       this.setState({
-        errorMessage:
-          '* The title and body of the note be at least 3 charachters',
+        errorMessage: '* The title and body must be at least 3 charachters',
         error: 'show',
       });
 
