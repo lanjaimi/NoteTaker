@@ -10,7 +10,6 @@ const path = require('path');
 
 const url = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/note_taker';
 
-mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
 
